@@ -1,7 +1,0 @@
-pull
-push
-merge
-clone
-commit
-add
-checkout
