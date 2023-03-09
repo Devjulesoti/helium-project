@@ -1,0 +1,37 @@
+.section4 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+  display: grid;
+  background: #917fef29;
+}
+.section4 .image {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.section4-text {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+@media (min-width: 990px) {
+  .section4 {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .section4-text {
+    margin-top: 30px;
+  }
+
+  .section4-text h6 {
+    font-weight: bold;
+  }
+  .section4-text .p1 {
+    font-weight: bolder;
+    font-size: small;
+  }
+}

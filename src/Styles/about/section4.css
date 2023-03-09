@@ -1,0 +1,38 @@
+.asection4 img {
+  width: 50%;
+}
+.asection4 {
+  background-color: #f2f1f8;
+  margin: 30px;
+}
+.asection6 {
+  background-color: white;
+  width: 100%;
+}
+.asection4 p {
+  color: red;
+}
+.word {
+  letter-spacing: 10px;
+}
+
+@media (max-width: 600px) {
+  .each-one {
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .each-right {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid grey;
+    border-radius: 8px;
+  }
+  .asection4 img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}

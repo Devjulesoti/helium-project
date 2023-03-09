@@ -1,0 +1,23 @@
+.section8{
+    background-color: #F3908E;
+}
+.demo{
+    color: #F3908E;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+   
+    .image-div {
+     display: none;
+    }
+    .section8{
+        padding: 30px;
+        text-align: center;
+    }
+  }

@@ -1,0 +1,22 @@
+.aboutus{
+    background-color: #F2F1F8;
+    font-size: 15px;
+    width: 50%;
+    
+}
+.values{
+    text-align: left;
+    background-color: white;
+    width: 50%;
+}
+.values img{
+    width: 50px;
+    padding-right: 10px;
+}
+.values h4{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.values p{
+    margin-left: 30px;
+}
