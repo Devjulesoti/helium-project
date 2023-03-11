@@ -15,6 +15,10 @@
 .word {
   letter-spacing: 10px;
 }
+.sec4-outer{
+  background-color: #f2f1f8;
+
+}
 
 @media (max-width: 600px) {
   .each-one {

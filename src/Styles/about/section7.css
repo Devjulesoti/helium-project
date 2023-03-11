@@ -5,25 +5,26 @@
   background-color: #251a5f;
   margin-top: 30px;
   padding-bottom: 50px;
-  /* margin-bottom: 30px; */
 }
-.digital{
+.sec7-outer {
+  background-color: #251a5f;
+}
+.digital {
   border-bottom: 2px solid white;
 }
-.download{
+.download {
   border: 2px solid white;
   background-color: transparent;
   border-radius: 30px;
-  margin:0 auto;
-  
+  margin: 0 auto;
 }
 
-  .media {
-    font-weight: 600;
-    font-size: 45px;
-  }
-  
-  @media (max-width: 600px) {
+.media {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+@media (max-width: 600px) {
   .each-one7 {
     border: 1px solid white;
     border-radius: 8px;

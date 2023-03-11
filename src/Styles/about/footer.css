@@ -1,12 +1,18 @@
 @media (max-width: 600px) {
-   
-    .footer1{
-        background-color: black;
-        color: white;
-    }
-    
+  .footer1 {
+    background-color: black;
+    color: white;
   }
-  .footer div{
-    text-align: center;
-    padding: 0;
-  }
+}
+.footer-div div {
+  text-align: center;
+  padding: 0;
+}
+.footer-div{
+  background-color: #FFF6F6;
+
+}
+.foot-outer{
+  background-color: #FFF6F6;
+
+}

@@ -4,7 +4,8 @@ import laptop from '../../assets/images/about/laptop1@2x.png (1).png'
 
 const Section8 = () => {
   return (
-    <div className='container section8 d-flex justify-content-around align-items-center'>
+   <div className='container-fluid sec8-outer'>
+ <div className='container section8 d-flex justify-content-around align-items-center'>
         <div className='text-md-start ps-md-5'>
             <p className='text-light'>INTRESTED IN HELIUM?</p>
             <h4 className='text-light'>Take your hospital digital in record time</h4>
@@ -15,6 +16,7 @@ const Section8 = () => {
         </div>
 
     </div>
+   </div>
   )
 }
 

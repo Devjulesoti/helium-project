@@ -6,7 +6,8 @@ import Navbar1 from "../../Components/Landing/Lnavbar1";
 
 const Nav = () => {
   return (
-    <div className="container navcon">
+    <div className="container-fluid nav-div">
+      <div className="container navcon">
       <Navbar1/>
         <div className="ageneral-wrap">
           <div className="awrap1">
@@ -38,6 +39,7 @@ const Nav = () => {
           </a> */}
         </div>
       </div>
+    </div>
   )
 }
 
