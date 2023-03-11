@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Lnavbar1 = ({ data }) => {
   return (
-    <Navbar expand="lg" className=" nav-wrap">
+    <Navbar expand="lg" className=" nav-wrap mb-4">
       <Container>
         <Link to='/'>
           <img src={navIcon} alt="" />

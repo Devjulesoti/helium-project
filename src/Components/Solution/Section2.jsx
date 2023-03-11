@@ -9,9 +9,9 @@ const Section2 = () => {
       <Navbar1 />
       <div className="img-picture">
         <div className="text-para">
-          <h1 className=" ">
+          <h2 className="care">
             <strong>YOUR CARE, ON YOUR TERMS</strong>
-          </h1>
+          </h2>
           <h4>
             Take control of your health with our wealth of patient resources.
           </h4>
@@ -19,9 +19,9 @@ const Section2 = () => {
 
         <img src={girl} alt="" />
         <div className="arrow">
-          <a href="#Footer-head">
+          {/* <a href="#Footer-head">
             <img src={fine} alt="" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

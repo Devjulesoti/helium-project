@@ -17,7 +17,7 @@ const Landing = () => {
       <Lsection4 />
       <Lsection5 />
       <Lsection6 />
-      <Lfooter />
+      {/* <Lfooter /> */}
     </div>
   );
 };

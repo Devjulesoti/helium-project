@@ -2,7 +2,7 @@
   display: flex;
   margin-top: 1rem;
 }
-h2 {
+.care {
   text-align: center;
   width: 80%;
   margin-left: 2rem;
@@ -78,13 +78,13 @@ h4 {
   .hand-phone {
     display: none;
   }
-  .section3 .third {
+  .sosection3 .sthird {
     display: none;
   }
-  .first {
+  .sfirst {
     justify-content: flex-start;
   }
-  .section4 {
+  .sosection4 {
     background-color: white;
   }
   .arrow {
