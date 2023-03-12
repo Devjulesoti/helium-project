@@ -3,7 +3,7 @@ import "../../Styles/about/footer.css";
 
 const Footer = () => {
   return (
-   <div className="container-fluid foot-outer">
+   <div className="container-fluid foot-outer"id="footer">
      <div className="container pt-4 text-start footer-div d-none d-md-flex justify-content-around gap-5">
       <div className="first">
         <h6>OUR SOLUTIONS</h6>

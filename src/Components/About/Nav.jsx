@@ -1,6 +1,6 @@
-import React from 'react'
-import '../../Styles/about/nav.css'
-import people from '../../assets/images/about/intro-about.png.png'
+import React from "react";
+import "../../Styles/about/nav.css";
+import people from "../../assets/images/about/intro-about.png.png";
 import dropDown from "../../assets/images/landing//a.png";
 import Navbar1 from "../../Components/Landing/Lnavbar1";
 
@@ -8,11 +8,11 @@ const Nav = () => {
   return (
     <div className="container-fluid nav-div">
       <div className="container navcon">
-      <Navbar1/>
+        <Navbar1 />
         <div className="ageneral-wrap">
           <div className="awrap1">
             <div className="atext1">
-              <h1>AFRICA'S HEALTHTECH & DATA BACKBONE</h1>
+              <h1 className="africa">AFRICA'S HEALTHTECH & DATA BACKBONE</h1>
             </div>
             <div className="aimage">
               <img src={people} alt="" />
@@ -33,14 +33,14 @@ const Nav = () => {
             </div>
           </div>
         </div>
-        <div>
-          {/* <a href="#footer">
+        <div className="scroll-btn text-center pb-5">
+          <a className="scroll-ref" href="#footer">
             <img src={dropDown} alt="img-dropdown" />
-          </a> */}
+          </a>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
