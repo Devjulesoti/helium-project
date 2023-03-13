@@ -5,7 +5,7 @@ import "../../Styles/landing/Section4.css";
 const Lsection4 = () => {
   return (
     <div className="section4">
-      <div className="image">
+      <div className="Limage">
         <img src={Image} alt="" />
       </div>
       <div className="section4-text">

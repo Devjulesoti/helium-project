@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Lnavbar1 = ({ data }) => {
   return (
-    <Navbar expand="lg" className=" nav-wrap mb-4">
+    <Navbar expand="lg" className="px-5 nav-wrap mb-4">
       <Container>
         <Link to='/'>
           <img src={navIcon} alt="" />
@@ -19,7 +19,7 @@ const Lnavbar1 = ({ data }) => {
           </div>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto lnavcon">
+          <Nav className="lnavcon ms-auto">
             <Link to='/solution' className="text-light lnavlinks">
               Solutions
             </Link>

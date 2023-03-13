@@ -9,6 +9,7 @@
   .lnavcon{
     display: flex;
     align-items: center;
+    /* justify-content: space-around; */
   }
   .lnavlinks{
     text-decoration: none;
