@@ -41,6 +41,7 @@
   max-width: 200px;
 }
 
+
 @media (min-width: 990px) {
   .image {
     display: none;

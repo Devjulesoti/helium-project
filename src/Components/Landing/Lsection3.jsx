@@ -13,7 +13,7 @@ import "../../Styles/landing/Section3.css";
 const Lsection3 = () => {
   return (
     <div className="section3">
-      <div className="text-wrap1">
+      <div className="section3-text-wrap1">
         <h5 className="h5">TRUSTED BY MORE THAN</h5>
         <h3>300 provider</h3>
         <br />
@@ -23,18 +23,36 @@ const Lsection3 = () => {
         <h5>IN MANAGING OVER</h5>
         <h3>165,000 patients monthly</h3>
       </div>
-      <div>
-        <p>SPONSORS</p>
-        <div className="img-wrap2">
+      <div className="section3-wrap2">
+        <p className="text-center">SPONSORS</p>
+        <div className="section3-img-wrap2">
+          <div>
           <img src={frame1} alt="" />
+          </div>
+          <div>
           <img src={frame2} alt="" />
+          </div>
+          <div>
           <img src={frame3} alt="" />
+          </div>
+          <div>
           <img src={frame4} alt="" />
+          </div>
+          <div>
           <img src={frame5} alt="" />
+          </div>
+          <div>
           <img src={frame6} alt="" />
+          </div>
+          <div>
           <img src={frame7} alt="" />
+          </div>
+          <div>
           <img src={frame8} alt="" />
+          </div>
+          <div>
           <img src={frame9} alt="" />
+          </div>
         </div>
       </div>
     </div>

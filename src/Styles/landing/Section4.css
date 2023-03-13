@@ -7,8 +7,12 @@
 }
 .section4 .Limage {
   width: 90%;
-  max-width: 600px;
+  max-width: 500px;
   margin: 20px auto;
+}
+.section4 .Limage img{
+  width: 90%;
+  margin: 0 auto;
 }
 .section4-text {
   text-align: left;
