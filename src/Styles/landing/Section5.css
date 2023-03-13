@@ -26,7 +26,6 @@
 @media (min-width: 990px) {
   .section5-wrap {
     display: flex;
-    /* margin: 0 auto; */
     gap: 50px;
     justify-content: space-around;
     align-items: center;
