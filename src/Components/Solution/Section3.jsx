@@ -46,12 +46,12 @@ const Section3 = () => {
       </div>
 
       <div className="hand-phone">
-        <img src={phone} alt="" className="w-75" />
+        <img src={phone} alt="" className="w-100" />
       </div>
-      <div className="third">
-        <h1>Personal Health Records </h1>
+      <div className="sthird">
+        <h1>Personal Health Records</h1>
         <p>All your health records and more,in one place</p>
-        <div className="d-flex gap-3 ">
+        <div className="d-flex justify content-around gap-3 ">
           <a href="www.apple.com">
             {" "}
             <img src={apple} alt="" />
