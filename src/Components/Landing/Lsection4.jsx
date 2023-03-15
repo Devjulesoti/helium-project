@@ -1,12 +1,12 @@
 import React from "react";
-import Image from "../../assets/images/landing/div.png";
+import Image1 from "../../assets/images/landing/div.png";
 import "../../Styles/landing/Section4.css";
 
 const Lsection4 = () => {
   return (
     <div className="section4">
       <div className="Limage">
-        <img src={Image} alt="" /> 
+        <img src={Image1} alt="" /> 
       </div>
       <div className="section4-text">
         <p style={{ color: "#454545" }}>
