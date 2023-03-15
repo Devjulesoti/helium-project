@@ -1,55 +1,56 @@
-.line{
-    background-color: red;
-    width:2px;
-    height: 10px;
-    margin: 0 auto;
-
+.line {
+  background-color: red;
+  width: 2px;
+  height: 10px;
+  margin: 0 auto;
 }
-.each-write1{
-    align-items: center;
-    margin-bottom: 20%;
-   
+.each-write1 {
+  align-items: center;
+  margin-bottom: 20%;
 }
-.alorem{
-    padding: 8px;
-    box-shadow: 2px 2px 3px grey;
-
+.alorem {
+  padding: 8px;
+  box-shadow: 2px 2px 3px grey;
 }
-.aleft{
-    padding-top: 70px;
+.aleft {
+  padding-top: 70px;
 }
-.aright{
-    margin-top: 8px;
+.aright {
+  margin-top: 8px;
 }
-.asection3{
-    width: 30%;
-    margin: 20px auto;
+.asection3 {
+  width: 30%;
+  margin: 20px auto;
 }
-.aeach img{
-   width:  50px;
+.aeach img {
+  width: 50px;
 }
-.aeach{
-    margin: 0 auto;
+.aeach {
+  margin: 0 auto;
 }
-
+@media (max-width: 378px) {
+  .asecond {
+    display: none;
+  }
+}
 /* ############################################## Mobile version###################################*/
 
-.date{
-    margin-bottom:35px ;
-    font-weight: 700;
-    text-align: left;
+.date {
+  margin-bottom: 35px;
+  font-weight: 700;
+  text-align: left;
 }
-.date1{
-    font-weight: 700;
+.date1 {
+  font-weight: 700;
 }
-.asecond{
-    padding-top: 15px;
-    /* padding-bottom: 10px; */
+.asecond {
+  padding-top: 15px;
+  /* padding-bottom: 10px; */
 }
-.athird{
-    padding-top: 15px;
+.athird {
+  padding-top: 15px;
 }
-.writeup2{
-    margin-bottom: 35px;
-    padding: 0;
+.writeup2 {
+  margin-bottom: 35px;
+  padding: 0;
 }

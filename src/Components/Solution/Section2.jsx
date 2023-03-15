@@ -19,11 +19,11 @@ const Section2 = () => {
 
         <img src={girl} alt="" />
       </div>
-        <div className="arrow text-center pt-3 pb-3">
-          <a href="#Footer-head">
-            <img src={fine} alt="" />
-          </a>
-        </div>
+      <div className="arrow text-center pt-3 pb-3">
+        <a href="#footer">
+          <img src={fine} alt="" />
+        </a>
+      </div>
     </div>
   );
 };

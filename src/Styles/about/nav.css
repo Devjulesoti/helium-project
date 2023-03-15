@@ -1,6 +1,7 @@
 .navcon {
   background-color: #7b3352;
   color: white;
+  /* max-width: 1200px; */
 }
 .nav-div {
   background-color: #7b3352;
@@ -65,8 +66,8 @@
     display: none;
   }
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .scroll-btn {
     display: none;
   }
-}
+} */

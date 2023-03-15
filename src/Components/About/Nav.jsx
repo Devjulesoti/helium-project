@@ -33,7 +33,7 @@ const Nav = () => {
             </div>
           </div>
         </div>
-        <div className="scroll-btn text-center pb-5">
+        <div className="scroll-btn text-center pb-5 pt-3">
           <a className="scroll-ref" href="#footer">
             <img src={dropDown} alt="img-dropdown" />
           </a>
