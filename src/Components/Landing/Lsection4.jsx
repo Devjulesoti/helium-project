@@ -6,7 +6,6 @@ const Lsection4 = () => {
   return (
     <div className="section4">
       <div className="Limage">
-        <img src={Image1} alt="" /> 
       </div>
       <div className="section4-text">
         <p style={{ color: "#454545" }}>

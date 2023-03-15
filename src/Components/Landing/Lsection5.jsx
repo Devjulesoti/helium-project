@@ -7,7 +7,7 @@ import "../../Styles/landing/Section5.css";
 const Lsection5 = () => {
   return (
     <div className="section5">
-      <h4>Our Customer Service Is Unparalled</h4>
+      <h4 className="text-center text-dark">Our Customer Service Is Unparalled</h4>
       <div className="section5-wrap">
         <div>
           <div>

@@ -9,7 +9,8 @@ import "../../Styles/about/section7.css";
 
 const Section7 = () => {
   return (
-    <div className="asection7 container">
+    <div className="container-fluid sec7-outer">
+      <div className="asection7 container">
         <h2 className=" text-center text-light py-5">In the media</h2>
 
         <div>
@@ -55,6 +56,7 @@ const Section7 = () => {
         </div>
         <button className=' text-light d-flex justify-content-center download p-3 mt-5'>Download press kit</button>
       </div>
+    </div>
   )
 }
 

@@ -48,10 +48,10 @@ const Section2 = () => {
         <div className="values p-5 container-sm">
           <h3 className="pb-4">Our Values</h3>
           <div>
-            <h4>
+            <div className="d-flex justify-content-start align-items-center">
               <img src={signpost} alt="" />
-              Simplicity
-            </h4>
+              <h5>Simplicity</h5>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur. Sagittis mattis vel
               aliquam auctor varius neque suspendisse. Dignissim ligula leo sed
@@ -60,10 +60,10 @@ const Section2 = () => {
             </p>
           </div>
           <div>
-            <h4>
+          <div className="d-flex justify-content-start align-items-center">
               <img src={shield} alt="" />
-              Boldness
-            </h4>
+              <h5>Boldness</h5>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur. Sagittis mattis vel
               aliquam auctor varius neque suspendisse. Dignissim ligula leo sed
@@ -72,10 +72,10 @@ const Section2 = () => {
             </p>
           </div>
           <div>
-            <h4>
+          <div className="d-flex justify-content-start align-items-center">
               <img src={gem} alt="" />
-              Innovation
-            </h4>
+              <h5>Innovation</h5>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur. Sagittis mattis vel
               aliquam auctor varius neque suspendisse. Dignissim ligula leo sed
@@ -84,10 +84,10 @@ const Section2 = () => {
             </p>
           </div>
           <div>
-            <h4>
+          <div className="d-flex justify-content-start align-items-center">
               <img src={people} alt="" />
-              Thoughtfulness
-            </h4>
+              <h5>Thoughtfulness</h5>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur. Sagittis mattis vel
               aliquam auctor varius neque suspendisse. Dignissim ligula leo sed
