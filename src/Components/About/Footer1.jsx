@@ -14,8 +14,10 @@ const footer1 = () => {
         <img src={twitter} alt="" />
         <img src={linkedin} alt="" />
       </div>
+      <div className="m-auto text-center">
       <p className="p-0 m-0">+2348156410362</p>
       <p className="p-0 m-0">team@techstudioheliumhealth.com</p>
+      </div>
     </div>
   );
 };

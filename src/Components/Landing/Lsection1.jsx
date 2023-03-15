@@ -36,9 +36,9 @@ const Lsection1 = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="text-center pb-5">
           <a href="#footer">
-            <img src={dropDown} alt="img-dropdown" />
+            <img  src={dropDown} alt="img-dropdown" />
           </a>
         </div>
       </div>

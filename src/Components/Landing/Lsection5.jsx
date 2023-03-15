@@ -6,11 +6,11 @@ import "../../Styles/landing/Section5.css";
 
 const Lsection5 = () => {
   return (
-    <div className="section5">
-      <h4>Our Customer Service Is Unparalled</h4>
-      <div className="section5-wrap">
-        <div>
-          <div>
+    <div className="Lsection5">
+      <h4 className="text-center text-dark">Our Customer Service Is Unparalled</h4>
+      <div className="Lsection5-wrap">
+        <div className="Lsection5-wrap1">
+          <div >
             <img src={image1} alt="" />
           </div>
           <h5>WORLD-CLASS 24/7 SUPPORT</h5>
@@ -20,7 +20,7 @@ const Lsection5 = () => {
           </p>
         </div>
 
-        <div>
+        <div className="Lsection5-wrap1">
           <div>
             <img src={image2} alt="" />
           </div>
@@ -32,7 +32,7 @@ const Lsection5 = () => {
           </p>
         </div>
 
-        <div>
+        <div className="Lsection5-wrap1">
           <div>
             <img src={image3} alt="" />
           </div>

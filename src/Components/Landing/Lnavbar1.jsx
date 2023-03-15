@@ -6,20 +6,20 @@ import { Link } from "react-router-dom";
 
 const Lnavbar1 = ({ data }) => {
   return (
-    <Navbar expand="lg" className=" nav-wrap">
-      <Container>
+    <Navbar expand="lg" className="px-md-5 nav-wrap mb-4">
+      <Container >
         <Link to='/'>
-          <img src={navIcon} alt="" />
+          <img className="" src={navIcon} alt="" />
         </Link>
-        <Navbar.Toggle className="nn" aria-controls="basic-navbar-nav">
+        <Navbar.Toggle className="nn " aria-controls="basic-navbar-nav">
           <div className="hamburger">
             <span></span>
             <span></span>
             <span></span>
           </div>
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto lnavcon">
+        <Navbar.Collapse id="basic-navbar-nav" className="">
+          <Nav className="lnavcon ms-auto">
             <Link to='/solution' className="text-light lnavlinks">
               Solutions
             </Link>
