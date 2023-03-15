@@ -8,22 +8,22 @@ const Section2 = () => {
     <div className="lsection2">
       <Navbar1 />
       <div className="img-picture">
-        <div className="text-para">
+        <div className="text-code">
           <h2 className="care">
             <strong>YOUR CARE, ON YOUR TERMS</strong>
           </h2>
-          <h4>
+          <h4 className="take ">
             Take control of your health with our wealth of patient resources.
           </h4>
         </div>
 
         <img src={girl} alt="" />
-        <div className="arrow">
-          {/* <a href="#Footer-head">
-            <img src={fine} alt="" />
-          </a> */}
-        </div>
       </div>
+        <div className="arrow text-center pt-3 pb-3">
+          <a href="#Footer-head">
+            <img src={fine} alt="" />
+          </a>
+        </div>
     </div>
   );
 };

@@ -11,10 +11,9 @@ const Solution = () => {
        <Section2/>
        <Section3/>
        <Section4/>
-       
-
     </div>
   )
 }
 
 export default Solution
+ 
